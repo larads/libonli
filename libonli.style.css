@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fff;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+header{
+    height: 200px;
+    overflow: hidden;
+}
+.logo{
+    width: 50%;
+    padding: 20px 0;
+    top: 50%;
+    left: 30%;
+}
+.menu{
+    width: 50%;
+    padding: 10px;
+    text-align: right;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 15px;
+    text-transform:uppercase;
+    background-color: orange;
+}
+.menu-.hover{
+    box-shadow: 20px 2px 2px black;
+    cursor: pointer;
+}
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+.extras{
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: orange;
+    linear-gradient(45deg, #fc7f51, #3a5bee);
+}
+.extras img{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 15%;
+    left: 20%;
+    background-color: orange;
+}
+h1{
+    font-size: 1cm;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translateX(-10%) translateY(-10%);
+}
+.texto-sobre{
+    margin: 140px;
+}
+.texto-sobre h1{
+    font-size: 50px;
+}
+.texto-sobre p{
+    margin: 30px 0;
+    position: relative;
+    padding: 2px;
+    height: 100px;
+    top: 10%;
+    left: -40%;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    max-width: 700px;
+    text-align: left;
+}
+.texto-sobre button{
+    border: 0;
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 110px;
+    height: 40px;
+    cursor: pointer;
+}
+.texto-sobre button a{
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 15px;
+    text-transform: uppercase;
+    background-color: orange;
+}
