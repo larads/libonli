@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #fff;
+    background: rgb(252, 193, 85);
 }
 .center{
     display: flex;
@@ -27,17 +27,17 @@ header{
 }
 .menu{
     width: 50%;
-    padding: 10px;
+    padding: 15px;
     text-align: right;
 }
 .menu a{
-    color: black;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     margin-right: 15px;
     text-transform:uppercase;
-    background-color: orange;
+    background-color: #5952d4;
 }
 .menu-.hover{
     box-shadow: 20px 2px 2px black;
@@ -55,7 +55,6 @@ section.sobre{
     height: 700px;
     border-radius: 50%;
     background-color: orange;
-    linear-gradient(45deg, #fc7f51, #3a5bee);
 }
 .extras img{
     position: absolute;
@@ -97,7 +96,7 @@ h1{
 }
 .texto-sobre button{
     border: 0;
-    background-color: orange;
+    background-color:#5952d4;
     color: rgb(255, 255, 255);
     border-radius: 10px;
     width: 110px;
@@ -105,11 +104,11 @@ h1{
     cursor: pointer;
 }
 .texto-sobre button a{
-    color: black;
+    color: white;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     margin-right: 15px;
     text-transform: uppercase;
-    background-color: orange;
+    background-color: #5952d4;
 }
